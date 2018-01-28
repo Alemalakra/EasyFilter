@@ -1,6 +1,16 @@
 # EasyFilter
 EasyFilter 1.0 - Free UDP Amplification Lists Filter.
 
+
+# Features
+
+- [x] Fast filter lists. (0.05 seconds by server).
+- [x] Chargen, NTP, Quake, SSDP, SNMP, DNS, LDAP, MDNS, TFTP, PortMap, Netbios supported.
+- [x] Anti-Duplication feature.
+- [x] Filter bytes response.
+- [x] Custom output syntax support.
+- [x] Lightweight.
+
 # Installation
 ```wget -O filter.py https://raw.githubusercontent.com/Alemalakra/EasyFilter/master/filter.py && chmod 777 filter.py```
 
