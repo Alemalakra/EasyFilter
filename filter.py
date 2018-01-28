@@ -38,7 +38,7 @@ if proto == 'tftp':
     port = 69
     payload = tftp
 if proto == 'portmap':
-    port = 111
+    port = 111 
     payload = portmap
 if proto == 'netbios':
     port = 137
