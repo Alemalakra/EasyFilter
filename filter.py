@@ -37,16 +37,16 @@ newfile = open(file2, 'w')
 if proto == 'tftp':
     port = 69
     payload = tftp
-if proto == 'portmap':
+elif proto == 'portmap':
     port = 111 
     payload = portmap
-if proto == 'netbios':
+elif proto == 'netbios':
     port = 137
     payload = netbios
-if proto == 'ntp':
+elif proto == 'ntp':
     port = 123
     payload = ntp
-if proto == 'mdns':
+elif proto == 'mdns':
     port = 5353
     payload = mdns
 elif proto == 'chargen':
